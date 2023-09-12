@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lake side Bite</title>
+    <!-- Include Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <header class="bg-dark text-white py-4">
+        <div class="container">
+            <h1 class="display-4">LakeSideBite</h1>
+        </div>
+    </header>
+
+    <div class="container my-4">
+        <h2>Select a Hotel</h2>
+        <div class="form-group">
+            <select class="form-control" id="hotelSelect">
+                <option value="hotel1">Cafe by The valley</option>
+                <option value="hotel2">Aashirwaad</option>
+                <option value="hotel3">Hotel 3</option>
+                <option value="hotel4">Hotel 4</option>
+                <option value="hotel5">Hotel 5</option>
+            </select>
+        </div>
+    </div>
+
+    <!-- Hotel 1 Content -->
+    <div class="container my-4" id="hotelContent">
+        <h2>Cafe By The Valley</h2>
+        <div class="row">
+            <!-- Food Cards for Hotel 1 -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="./images/sandwich-cheeseburguer-bun-bread_20200624140706.jpg" class="card-img-top" alt="Food 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Sandwich Cheeseburger</h5>
+                        <p class="card-text"> Rs.100</p>
+                        <button class="btn btn-primary">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Repeat for two more food items -->
+        </div>
+    </div>
+
+    <!-- Hotel 2 Content -->
+    <div class="container my-4" id="hotelContent">
+        <h2>Aashirwaad</h2>
+        <div class="row">
+            <!-- Food Cards for Hotel 2 -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="./images/chicken biriyani.jpg" class="card-img-top" alt="Food 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Chicken Biriyani</h5>
+                        <p class="card-text">Rs.150</p>
+                        <button class="btn btn-primary">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Repeat for two more food items -->
+        </div>
+    </div>
+
+    <!-- Repeat the above sections for Hotel 3, 4, and 5 -->
+
+    <footer class="bg-dark text-white py-3">
+        <div class="container">
+            <p class="text-center">&copy; 2023 Food Ordering</p>
+        </div>
+    </footer>
+
+    <!-- Include Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
